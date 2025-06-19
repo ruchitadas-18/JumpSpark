@@ -28,14 +28,14 @@ Examples:
 		|ruchita.das@omnireach.app|        |
 		|ruchita.das@omnireach.app | JumpSpark#24|		
 		
-#using test data
-#Scenario: Negative Login
-#
-#Given User login page
-#When title is JumpSpark
-#Then user enters username and password
-#|ruchitadas1223| rbeigeruernk|
-#|ewrrrrefretgtgthtyhyjfujysrfgefre@gmail.com| fdkrgtuitrgn|
-#Then user click on login button
-#Then login as affiliate
-#Then close the browser
+using test data
+Scenario: Negative Login
+
+Given User login page
+When title is JumpSpark
+Then user enters username and password
+|ruchitadas1223| rbeigeruernk|
+|ewrrrrefretgtgthtyhyjfujysrfgefre@gmail.com| fdkrgtuitrgn|
+Then user click on login button
+Then login as affiliate
+Then close the browser

@@ -35,7 +35,8 @@ public class LoginAffiliate {
 	}
 //simple and outline data driven testing	
 	@Then("^user enters \"(.*)\" and \"(.*)\"$") 
-	public void user_enters_email_id_and_password(String username, String password) {		driver.findElement(By.id("email")).sendKeys(username);
+	public void user_enters_email_id_and_password(String username, String password) {		
+		driver.findElement(By.id("email")).sendKeys(username);
 		driver.findElement(By.id("password")).sendKeys(password);
 	}
 	

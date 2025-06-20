@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	    features = "D:\\JumpSpark\\JumpSpark\\Learning\\src\\test\\java\\Features", // linking the feature file
+	    features = "D:\\JumpSpark\\JumpSpark\\Learning\\src\\test\\java\\Features\\Login.feature", // linking the feature file
 	    glue = {"StepDefination"}, // linking the step definition
 	    plugin = {
 	    	    "pretty",

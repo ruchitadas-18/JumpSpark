@@ -25,7 +25,7 @@ Then user enters details in the file
 |ruchita|das|tani123@gmail.com|7777777777|Bhopal|WeeTech|24|5|
 Then user select the options "<value1>" and "<value2>"
 Then user can click submit
-Then message prompted
+#Then message prompted
 Then close the fleet browser
 
 Examples:

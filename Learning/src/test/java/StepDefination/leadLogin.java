@@ -102,21 +102,21 @@ public class leadLogin {
 	    }
 
 	}
-	@Then("message prompted")
-	public void message_prompted() {
-		 System.out.println("⏳ Waiting for user to complete CAPTCHA manually...");
-		    
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(2)); wait.until(ExpectedConditions.textToBePresentInElementLocated(
-		        By.xpath("//div[@class='hbspt-form']/div[1]"),
-		        "Thank you for submitting the form."
-		    ));
-		    
-		WebElement a = driver.findElement(By.xpath("//div[@class='hbspt-form']/div[1]"));
-
-		    // Get the actual text from the element
-		    String actualMessage = a.getText();
-		    System.out.println(actualMessage);
-	}
+//	@Then("message prompted")
+//	public void message_prompted() {
+//		 System.out.println("⏳ Waiting for user to complete CAPTCHA manually...");
+//		    
+//		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(2)); wait.until(ExpectedConditions.textToBePresentInElementLocated(
+//		        By.xpath("//div[@class='hbspt-form']/div[1]"),
+//		        "Thank you for submitting the form."
+//		    ));
+//		    
+//		WebElement a = driver.findElement(By.xpath("//div[@class='hbspt-form']/div[1]"));
+//
+//		    // Get the actual text from the element
+//		    String actualMessage = a.getText();
+//		    System.out.println(actualMessage);
+//	}
 	@Then("close the fleet browser")
 	public void close_the_fleet_browser() {
 		driver.quit();

@@ -28,7 +28,7 @@ public class LoginAffiliate {
 	
 	@Given("User login page")
 	public void user_login_page() {
-		content.driver.get("https://preprodjs.wpenginepowered.com/dashboard/");;
+		content.driver.get("https://preprodjs.wpenginepowered.com/login/");
 	}
 	
 	@When("title is {string}")
